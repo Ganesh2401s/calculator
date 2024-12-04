@@ -1,0 +1,98 @@
+body {
+  background-color: hsl(240, 100%, 85%);
+}
+
+.body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calculatorcont {
+  width: 450px;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  /* justify-content: center; */
+  padding: 15px;
+  background-color: black;
+  border-radius: 1rem;
+  margin-top: 3%;
+}
+
+#display {
+  width: 100%;
+  height: 7rem;
+  color: white;
+  background-color: hsl(0, 0%, 30%);
+  font-size: 4rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+#keyscont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.numbtn,
+#operator {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  font-size: 3rem;
+  font-weight: 800;
+  background-color: hsl(0, 0%, 40%);
+  color: white;
+  text-shadow: 2px 3px rgb(8, 8, 8);
+}
+
+#operator {
+  background-color: hsl(20, 80%, 48%);
+  font-weight: 900;
+}
+
+#operator:hover {
+  background-color: hsl(20, 80%, 65%);
+  font-size: 3.4rem;
+}
+#operator:active {
+  background-color: hsl(20, 80%, 90%);
+}
+
+.numbtn:hover {
+  background-color: hsl(0, 0%, 70%);
+  font-size: 3.4rem;
+}
+.numbtn:active {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.clearbackbtns {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-content: space-between;
+  margin-left: 50px;
+}
+
+.clearbtn , .backbtn {
+  width: 210px;
+  height: 3rem;
+  margin-top: 8px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: hsl(20, 84%, 48%);
+  font-size: 2.3rem;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+ 
